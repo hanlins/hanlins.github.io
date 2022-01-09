@@ -1,6 +1,9 @@
 theme: minima
+url: "https://blogs.fruitiot.com"
+
 plugins:
-  - jekyll-feed
+- jekyll-feed
+- jekyll-sitemap
 
 giscus:
   repo: "hanlins/hanlins.github.io"
