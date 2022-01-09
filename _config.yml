@@ -14,3 +14,15 @@ giscus:
   crossorigin: "anonymous"
 
 google_analytics: "G-EYCVQ0N6FY"
+
+defaults:
+- scope:
+    path: "_posts"
+  values:
+    layout: "post"
+    permalink: "/:year/:title.html"
+- scope:
+    path: "_drafts"
+  values:
+    layout: "post"
+    permalink: "/:year/:title.html"
