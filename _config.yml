@@ -29,6 +29,11 @@ google_analytics: "G-EYCVQ0N6FY"
 
 defaults:
 - scope:
+    path: "README.md"
+  values:
+    layout: "home"
+    permalink: "/"
+- scope:
     path: "_posts"
   values:
     layout: "post"
