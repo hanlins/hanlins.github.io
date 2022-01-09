@@ -2,3 +2,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+giscus:
+  repo: "hanlins/hanlins.github.io"
+  repo-id: "MDEwOlJlcG9zaXRvcnkxOTM0MDMxMTU="
+  category: "Comments"
+  category-id: "DIC_kwDOC4cY684CAmgw"
+  mapping: "pathname"
+  reaction-enabled: "1"
+  theme: "dark_dimmed"
+  lang: "en"
+  crossorigin: "anonymous"
