@@ -12,3 +12,5 @@ giscus:
   theme: "dark_dimmed"
   lang: "en"
   crossorigin: "anonymous"
+
+google_analytics: "G-EYCVQ0N6FY"
