@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "STFangSong", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Fangsong_GB2312", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -34,6 +34,14 @@ $on-laptop:        800px !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
+}
+
+@font-face {
+  font-family: "Fangsong_GB2312";
+  // GithubPage doesn't support jekyll assets.
+  // Directly use github blob url for the font.
+  // src: url("../fonts/Fangsong_GB2312.ttf");
+  src: url("https://github.com/hanlins/hanlins.github.io/raw/v0.1.1/fonts/FangSong_GB2312.ttf");
 }
 
 // Import partials.
